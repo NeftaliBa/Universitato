@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "name": "colesterol",
+    "fields": [
+        {"name": "nombre", "type": ["string"]},
+        {"name": "edad", "type": ["int"]},
+        {"name": "sexo", "type": ["string"]},
+        {"name": "peso", "type": ["int"]},
+        {"name": "altura", "type": ["float"]},
+        {"name": "colesterol", "type": ["int"]}
+    ]
+}

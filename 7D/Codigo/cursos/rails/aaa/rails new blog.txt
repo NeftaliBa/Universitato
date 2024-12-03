@@ -1,0 +1,13 @@
+rails new blog
+cd blog
+
+bundle lock --add-platform=x86_64-linux
+bundle binstubs bundler
+
+Could not find importmap-rails-2.0.1, turbo-rails-2.0.7, stimulus-rails-1.3.4,
+debug-1.9.2, web-console-4.2.1, irb-1.14.0, rdoc-6.7.0 in locally installed gems
+
+bundle install
+
+
+ruby bin\rails server
