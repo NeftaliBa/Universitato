@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Cuestionario</h1>
+    <div style="margin-left: 40px;">
+        <form action="detalles.html" style="margin-bottom: 60px ">
+            <div>
+                <label for="name">Nombre Usuario:</label>
+                <input type="text" id="name"> <a href="detalles.html#name"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a> <br>
+                <label for="pass">Contraseña:</label>
+                <input type="password" id="pass"> <a href="detalles.html#pass"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+                <label for="repass">Repetir Contraseña:</label>
+                <input type="password" id="repass"> <a href="detalles.html#repass"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+                <label for="direct">Dirección:</label>
+                <input type="text" id="direct"> <a href="detalles.html#direct"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad"> <a href="detalles.html#ciudad"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+                <label for="provin">Provincia:</label>
+                <input type="text" id="provin"> <a href="detalles.html#provin"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+                <label for="nuhues">Número de Huésped:</label>
+                <input type="number" id="nuhues"> <a href="detalles.html#nuhues"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a><br>
+            </div>
+
+            <p style="font-size: 20px; font-weight: bold;">Servicios
+                <a href="detalles.html#Servicios" style="font-size: 10px; font-weight:normal;">Justificación</a>
+            </p>
+            <div style="float: left; margin-right: 30px; margin-left: 80px">
+                <input type="checkbox" id="AiCo"> <label for="AiCo"> Aire Acondicionado</label><br>
+                <input type="checkbox" id="BoSt"> <label for="BoSt"> Caja fuerte</label><br>
+                <input type="checkbox" id="MiBa"> <label for="MiBa"> Minibar</label><br>
+                <input type="checkbox" id="CoIn"> <label for="CoIn"> Conexión a internet</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="AlCa"> <label for="AlCa"> Almohadas a la carta</label><br>
+                <input type="checkbox" id="DeHu"> <label for="DeHu"> Detector de humos</label><br>
+                <input type="checkbox" id="MeTr"> <label for="MeTr"> Mesa de trabajo</label><br>
+                <input type="checkbox" id="WIFI"> <label for="WIFI"> WIFI</label><br>
+            </div>
+
+            <p style="font-size: 20px; font-weight: bold;">Tipo de Habitación
+                <a href="detalles.html#Tipo_de_Habitacion"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a>
+            </p>
+            <div style="margin-left: 80px;">
+                <input type="radio" id="individual" name="tipo_habitacion" value="Individual"> <label for="individual">
+                    Individual</label><br>
+                <input type="radio" id="doble" name="tipo_habitacion" value="Doble"> <label for="doble">
+                    Doble</label><br>
+                <input type="radio" id="Suite" name="tipo_habitacion" value="Suite"> <label for="Suite">
+                    Suite</label><br>
+            </div>
+
+            <p style="font-size: 20px; font-weight: bold;">Pensión
+                <a href="detalles.html#Pension" style="font-size: 10px; font-weight:normal;">Justificación</a>
+            </p>
+
+            <div style="margin-left: 80px;">
+                <input type="radio" id="Alojamiento" name="pension" value="Alojamiento"> <label for="Alojamiento">
+                    Alojamiento</label><br>
+                <input type="radio" id="Desayuno" name="pension" value="Desayuno"> <label for="Desayuno">
+                    Desayuno</label><br>
+                <input type="radio" id="Media" name="pension" value="Media"> <label for="Media"> Media</label><br>
+                <input type="radio" id="Completa" name="pension" value="Completa"> <label for="Completa">
+                    Completa</label><br>
+            </div>
+
+            <p style="font-size: 20px; font-weight: bold;">Comentarios o sugerencias
+                <a href="detalles.html#Comentarios_o_sugerencias"
+                    style="font-size: 10px; font-weight:normal;">Justificación</a>
+            </p>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="3"
+                style="margin-left: 80px; margin-top: -20px;"></textarea> <br>
+
+
+
+            <label for="email">E-mail contacto:</label><input type="text" id="email" style="margin-left: 10px;"> <a
+                href="detalles.html#Email" style="font-size: 10px; font-weight:normal;">Justificación</a> <br><br>
+
+
+            <input type="radio" id="Politica" name="poli" value="Politica"> <label for="Politica">Acepto la política de
+                privacidad</label>
+            <a href="detalles.html#Politica" style="font-size: 10px; font-weight:normal;">Justificación</a>
+            <br>
+
+
+            <input type="submit"> <a href="detalles.html#submit"
+                style="font-size: 10px; font-weight:normal;">Justificación</a>
+
+            <input type="button" value="Limpiar"> <a href="detalles.html#limpiar"
+                style="font-size: 10px; font-weight:normal;">Justificación</a>
+        </form>
+    </div>
+</body>
+
+</html>

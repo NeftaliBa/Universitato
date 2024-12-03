@@ -1,0 +1,17 @@
+
+        #blush
+        ksize= (10,10)
+        blush = cv2.blur(frame, ksize)
+        #gray
+        gray = cv2.cvtColor(blush, cv2.COLOR_RGBA2GRAY)
+        #ycrb
+        ycrb = cv2.cvtColor(gray, cv2.COLOR_RGB2YCrCb)
+        #yuv
+        yuv =cv2.cvtColor(ycrb, cv2.COLOR_RGB2YUV)
+        efects = yuv
+
+        img = cv2.resize(frame, None, fx=1, fy=1,
+                         interpolation=cv2.INTER_AREA)
+        (x0, y0), (x1, y1) = top_left_pt, bottom_right_pt
+        img[y0:y1, x0:x1] = 255 - img[y0:y1, x0:x1]
+        cv2.imshow('Ventana', img)
